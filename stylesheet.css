@@ -240,7 +240,7 @@
 			float: left;
 			text-align: center;
 			width: 1000px;
-			margin-top: 10px;
+			margin-top: 20px;
 			background-color: #383838;
 			border-top: 2px solid #f69600;
 			border-bottom: 2px solid #f69600;
@@ -465,7 +465,9 @@
 
 		#playername {
 			text-align: center;
-			font-size: 1em;}
+			font-size: 1em;
+			cursor: pointer;
+		}
 		
 		#biotext0 {
 			margin: -5px 20px 20px 20px;
