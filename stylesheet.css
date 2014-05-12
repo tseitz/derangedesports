@@ -1,0 +1,471 @@
+		body {
+			background-color: #505050;}
+			
+		#wrapper {
+			width: 1000px;
+			margin: 20px auto;}
+			
+		a {
+			font-family: "Lucida Sans Unicode", "Lucida Grande", sans-serif;
+			font-size: 1.05em;
+			text-decoration: none;
+			color: #ffffff;}
+			
+		a:hover {
+			color: #f69600;}
+		
+		a.current{
+			color: #f69600;
+			border-bottom: 1px solid #f69600;}
+		
+		p {
+			font-family: Tahoma, Calibri, Verdana, Geneva, sans-serif;
+			line-height: 25px;
+			font-size: .95em;
+			color: #ffffff;}
+			
+		.derangedlogo {
+			position: relative;
+			left: 398px;
+			bottom: 80px;
+			margin-left: 20px;
+			padding: 10px 10px 11px 10px;
+			background-color: #383838;
+			border-top: 2px solid #f69600;
+			border-bottom: 2px solid #f69600;}		
+			
+		.headernav {
+			background-color: #383838;
+			margin-top: 65px;
+			height: 50px;
+			border-top: 2px solid #f69600;
+			border-bottom: 2px solid #f69600;}
+
+		.headernav ul {
+			margin: 0px;
+			padding: 12px 0px 7px 30px;}
+
+		.headernav li {
+			display: inline;
+			padding-top: 5px;
+			margin: 0px 55px 0px 23px;
+			position: relative;
+			top: 2px;}	
+				
+		#tab {
+			margin-left: 160px;}
+			
+		.mainarticle {
+			float: left;
+			margin: 60px 44px 0px 0px;
+			width: 660px;
+			height: 600px;
+			background-color: #383838;
+			border-top: 2px solid #f69600;
+			border-bottom: 2px solid #f69600;}
+		
+		.twitter-timeline {
+			height: 597px;}
+			
+		.aside, .newsaside {
+			float: left;
+			margin-top: 60px;
+			padding: 2px;
+			width: 290px;
+			height: 596px;
+			background-color: #383838;
+			border-top: 2px solid #f69600;
+			border-bottom: 2px solid #f69600;}
+			
+		.footer {
+			float: left;
+			margin-top: 30px;
+			margin-bottom: 50px;
+			height: 50px;
+			width: 999px;
+			background-color: #383838;
+			border-top: 2px solid #f69600;
+			border-bottom: 2px solid #f69600;}
+		
+		.footericons {
+			float: right;
+			margin-top: 5px;
+			margin-right: 20px;}
+			
+		.footer-copyright {
+			color: #ffffff;
+			line-height: 50px;
+			padding-left: 20px;}
+			
+		.contactus {
+			float: right;
+			padding: 13px 0px;
+			padding-right: 20px;
+			font-size: 1.05em;}
+			
+		h1, h2, h3 {
+			font-family: "Lucida Sans Unicode", "Lucida Grande", sans-serif;
+			color: #f69600;}
+			
+		#streamchoose, #allstreamchoose {
+			font-family: Tahoma, Calibri, Verdana, Geneva, sans-serif;
+			line-height: 25px;
+			font-size: 1.10em;
+			color: #f69600;
+			position: relative;
+			left: 10px;
+			top: 3px;}
+			
+		#furytwitterheader {
+			font-family: Tahoma, Calibri, Verdana, Geneva, sans-serif;
+			line-height: 25px;
+			font-size: 1.10em;
+			color: #f69600;
+			position: relative;
+			left: 567px;
+			top: 4px;}
+
+		#geekintwitterheader {
+			font-family: Tahoma, Calibri, Verdana, Geneva, sans-serif;
+			line-height: 25px;
+			font-size: 1.10em;
+			color: #f69600;
+			position: relative;
+			left: 548px;
+			top: 4px;
+		}
+		
+		#slimchancetwitterheader {
+			font-family: Tahoma, Calibri, Verdana, Geneva, sans-serif;
+			line-height: 25px;
+			font-size: 1.10em;
+			color: #f69600;
+			position: relative;
+			left: 511px;
+			top: 4px;}
+
+		#klipztwitterheader {
+			font-family: Tahoma, Calibri, Verdana, Geneva, sans-serif;
+			line-height: 25px;
+			font-size: 1.10em;
+			color: #f69600;
+			position: relative;
+			left: 564px;
+			top: 4px;
+		}
+			
+		#allstreamchoose {
+			margin-top: 60px;
+			margin-bottom: 10px;}
+			
+		div #streamchoose {
+			display: inline;}
+			
+		select {
+			background-color: #505050;
+			color: #f69600;
+			font-size: .95em;
+			border-color: #f69600;}
+			
+		.stream {	
+			float: left;
+			margin: 0px 0px 0px 0px;
+			padding: 20px 0px;
+			border-bottom: 2px solid #f69600;
+			background-color: #383838;}
+			
+		.allstream {	
+			float: left;
+			margin: 0px 0px 50px 0px;
+			padding: 20px 0px;
+			border-bottom: 2px solid #f69600;
+			background-color: #383838;}
+
+		#streamheader, #allstreamheader {
+			margin-top: 60px;
+			height: 55px;
+			background-color: #383838;
+			border-top: 2px solid #f69600;
+			border-bottom: 1px solid #f69600;
+			clear: both;}
+		
+		#allstreamheader {
+			margin-top: 0px;}
+			
+		.twittericon {
+			position: relative;
+			left: 576px;
+			top: 13px;}
+			
+		.slimtwittericon {
+			position: relative;
+			left: 520px;
+			top: 13px;}
+			
+		.geekintwittericon {
+			position: relative;
+			left: 557px;
+			top: 13px;}
+
+		.klipztwittericon {
+			position: relative;
+			left: 573px;
+			top: 13px;
+		}
+			
+		#nameheader {
+			padding-left: 10px;
+			margin-top: 13px;}
+		
+		#slimchance, #fury_dr, #geekin, #klipz {
+			float: left;}
+		
+		#chat_embed  {
+			float: left;
+			margin-left: 20px;}
+			
+		#biotext, #newstext {
+			margin: -5px 20px 20px 20px;
+			color: #ffffff;
+			font-size: .95em;
+			line-height: 1.4em;
+			padding: 0px 40px;}
+
+		#derangedbio {
+			margin: 20px 20px 20px 20px;
+			color: #ffffff;
+			font-size: .95em;}
+
+		.results {
+			float: left;
+			text-align: center;
+			width: 1000px;
+			margin-top: 10px;
+			background-color: #383838;
+			border-top: 2px solid #f69600;
+			border-bottom: 2px solid #f69600;
+			border-collapse: collapse;}
+			
+		td {
+			padding: 20px 30px 20px 30px;
+			margin: auto auto;
+			color: #ffffff;
+			font-family: Tahoma, Calibri, Verdana, Geneva, sans-serif;
+			line-height: 25px;
+			font-size: .95em;
+			border-top: 1px solid #f69600;
+			border-bottom: 1px solid #f69600;}
+			
+		td a {
+			font-family: Tahoma, Calibri, Verdana, Geneva, sans-serif;
+			line-height: 25px;
+			font-size: .95em;}
+			
+		#Win {
+			color: #009933;}
+		
+		#Loss {
+			color: #ff0000;}
+			
+		.video {
+			float: left;
+			padding-left: 10px;
+			width: 660px; 
+			height: 400px;}
+			
+		.description {
+			float: left;
+			height: 400px;
+			width: 295px;
+			line-height: 0px;
+			margin: 0px 0px 0px 25px;
+			color: #ffffff;
+			overflow: auto;}
+		
+		.description a {
+			font-family: Tahoma, Calibri, Verdana, Geneva, sans-serif;
+			line-height: 25px;
+			font-size: .95em;
+			color: #f69600;
+		}
+
+		.record {
+			margin: 60px 0px 15px 0px;
+			background-color: #383838;
+			border-top: 2px solid #f69600;
+			border-bottom: 2px solid #f69600;}
+		
+		#gbrecord {
+			text-align: center;}
+			
+		#teampagelink {
+			text-align: center;}
+		
+		#gbteamnote {
+			text-align: center;}
+			
+		.margin {
+			margin-top: 60px;}
+			
+		.videowrapper {
+			float: left;
+			padding: 20px 10px 20px 0px;
+			border-bottom: 1px solid #f69600;
+			background-color: #383838;}
+			
+		#video-page-header {
+			border-top: 2px solid #f69600;
+			border-bottom: 2px solid #f69600;
+			background-color: #383838;
+			padding-left: 10px;
+			margin-top: 60px;
+			height: 50px;}
+			
+		#recent-videos {
+			position: relative;
+			bottom: 5px;}
+			
+		.tableheader {
+			border-top: 2px solid #f69600;
+			border-bottom: 2px solid #f69600;
+			color: #f69600;}
+		
+		.article {
+			color: #ffffff;
+			padding: 10px;
+			font-size: 1em;
+			border-top: 1px solid #f69600;
+			border-bottom: 1px solid #f69600;}
+		
+		.articlelogo {
+			padding: 0px 10px 10px 0px;
+			float: left;}
+			
+		.newstitle {
+			font-size: 1.05em;}
+			
+		#articletext {
+			margin: 8px 10px 0px 10px;
+			font-size: .9em;
+			line-height: 22px;}
+			
+		.newsarticle {
+			float: left;
+			margin-top: 10px;
+			height: auto;
+			background-color: #383838;
+			border-top: 2px solid #f69600;
+			border-bottom: 2px solid #f69600;
+			color: #ffffff;
+			font-size: 1.05em;
+			padding: 0px 10px;}
+			
+		#newsvideo {
+			margin: 5px 0px 10px 230px;}
+			
+		.mainheader {
+			margin: 10px 0px 10px 0px;
+			padding-left: 10px;}
+			
+		.newsaside {
+			height: 636px;}
+			
+		.news {
+			margin-top: 60px;
+			background-color: #383838;
+			border-top: 2px solid #f69600;
+			border-bottom: 1px solid #f69600;}
+			
+		#newsfeedvideo {
+			display: block;
+			margin: 15px auto 10px auto;}
+			
+		#newstext {
+			margin-top: 10px;}
+		
+		.videotitle {
+			margin: 30px 0px 10px 0px;}
+			
+		.contactuspage {
+			color: #ffffff;
+			background-color: #383838;
+			padding: 10px;
+			margin-top: 60px;
+			font-size: 1em;
+			border-top: 2px solid #f69600;
+			border-bottom: 2px solid #f69600;}
+			
+		.author {
+			position: relative;
+			bottom: 10px;
+			left: 10px;}
+			
+		a#readmore {
+			font-size: .75em;
+			color: #f69600;}
+			
+		.biopic {
+			padding-right: 15px;
+			align: left;
+			position: relative;
+			top: 7px;}
+			
+		#derangedpic {
+			display: block;
+			margin: 5px auto 10px auto;}
+			
+		.deschead {
+			position: relative;
+			bottom: 10px;}
+			
+		.breadcrumb {
+			margin-top: 60px;
+			font-family: "Lucida Sans Unicode", "Lucida Grande", sans-serif;
+			color: #ffffff;
+			font-size: 1em;}
+			
+		#orange {
+			color: #f69600;}
+			
+		#contactsubject {
+			position: relative;
+			left: 22px;}
+			
+		#gfga {
+			text-align: center;
+			font-family: Tahoma, Calibri, Verdana, Geneva, sans-serif;
+			line-height: 25px;
+			font-size: .95em;
+			color: #f69600;}
+
+		section:first-of-type {
+			margin-top: 60px;}
+
+		.accordion {
+			border-top: 2px solid #f69600;
+			border-bottom: 2px solid #f69600;
+			margin: 20px 0px;
+			background-color: #383838;}
+
+		#playername {
+			text-align: center;
+			font-size: 1em;}
+		
+		#biotext0 {
+			margin: -5px 20px 20px 20px;
+			color: #ffffff;
+			font-size: .95em;
+			line-height: 1.4em;
+			padding: 0px 40px;
+			overflow: hidden;
+		}
+
+		#biotext1, #biotext2, #biotext3, #biotext4 {
+			margin: -5px 20px 20px 20px;
+			color: #ffffff;
+			font-size: .95em;
+			line-height: 1.4em;
+			padding: 0px 40px;
+			height: 0px;
+			display: none;
+			overflow: hidden;}

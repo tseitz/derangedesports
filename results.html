@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<link rel="stylesheet" type="text/css" href="stylesheet.css?version=1">
+	<link rel="icon" type="image/x-icon" href="favicon.ico">
+	<title>Results | DeRanged eSports</title>
+</head>
+<body>
+	<div id="wrapper">
+	
+	<!-- Header -->
+		<nav class="headernav">		
+			<ul>
+				<li><a href="index.html">Home</a></li>
+				<li><a href="news.html">News</a></li>
+				<li><a href="furystream.html">Streams</a></li>				
+				<li><a href="team.html" id="tab">Team</a></li>
+				<li><a href="results.html" class="current">Results</a></li>
+				<li><a href="videos.html">Videos</a></li>
+			</ul>
+			<img class="derangedlogo" src="DerangedLogo.png" alt="Deranged Logo" width="150" height="105">
+		</nav>	
+	
+	<!-- Record and Profile -->
+		<div class="record">
+		<h3 id="gbrecord">Gamebattle's Record (Spring Season): 41-11</h3>
+		<div id="gfga">Games For: 92 | Games Against: 31</div>
+		<h3 id="teampagelink"><a href="http://gamebattles.majorleaguegaming.com/xbox360/call-of-duty-ghosts/team/mlg-derangedinc" target="_blank">Gamebattles Page</a></h3>
+		<p id="gbteamnote">(Teams that have not disbanded at time of posting, and match details are linked)</p>
+		</div>
+	
+	<!-- Begin Table -->
+		<table class="results">
+		<!-- Table Header -->
+			<tr>
+				<td class="tableheader">Date</td>
+				<td class="tableheader">Time</td>
+				<td class="tableheader">Type</td>
+				<td class="tableheader">Opponent</td>
+				<td class="tableheader">Result</td>
+				<td class="tableheader">Score</td>
+				<td class="tableheader">Info</td>
+			</tr>
+		<!-- End Table Header -->
+		
+		<!-- Table -->
+				<script type="text/javascript">	
+				// Functions
+					function game(date, time, type, teamLink, teamName, result, score, infoLink){
+						document.write("<tr>");
+						document.write("<td>" + date + "</td>");
+						document.write("<td>" + time + "</td>");
+						document.write("<td>" + type + "</td>");
+						document.write("<td><a id='team' href='"+ teamLink +"' target='_blank'>" + teamName + "</a></td>");						
+						document.write("<td><span id='"+ result +"'>" + result + "</span></td>");
+						document.write("<td>" + score + "</td>");
+						document.write("<td><a class='resultlink' id='info' href='"+ infoLink +"' target='_blank'>Match Details</a></td>");
+						document.write("</tr>");
+					}
+		
+					function gameNoTeamLink(date, time, type, teamName, result, score, infoLink){
+						document.write("<tr>");
+						document.write("<td>" + date + "</td>");
+						document.write("<td>" + time + "</td>");
+						document.write("<td>" + type + "</td>");
+						document.write("<td>" + teamName + "</td>");						
+						document.write("<td><span id='"+ result +"'>" + result + "</span></td>");
+						document.write("<td>" + score + "</td>");
+						document.write("<td><a class='resultlink' id='info' href='"+ infoLink +"' target='_blank'>Match Details</a></td>");
+						document.write("<tr>");
+					}
+					
+				// Games
+					game("4/18/2014", "8:00 PM CST", "Gamebattles", "http://gamebattles.majorleaguegaming.com/xbox360/call-of-duty-ghosts/team/acidgaming", "AcidGaming", "Loss", "1-2", "http://gamebattles.majorleaguegaming.com/xbox360/call-of-duty-ghosts/team/mlg-derangedinc/match?id=43206207");
+
+					game("4/18/2014", "7:15 PM CST", "Gamebattles", "http://gamebattles.majorleaguegaming.com/xbox360/call-of-duty-ghosts/team/egotistics", "Egotistics", "Win", "2-0", "http://gamebattles.majorleaguegaming.com/xbox360/call-of-duty-ghosts/team/mlg-derangedinc/match?id=43205233");
+
+					game("4/18/2014", "6:30 PM CST", "Gamebattles", "http://gamebattles.majorleaguegaming.com/xbox360/call-of-duty-ghosts/team/flappy-bird-gbs", "Flappy Bird Gb's", "Win", "2-0", "http://gamebattles.majorleaguegaming.com/xbox360/call-of-duty-ghosts/team/mlg-derangedinc/match?id=43203872");
+
+					game('4/17/2014', '9:30 PM CST', 'Gamebattles', 'http://gamebattles.majorleaguegaming.com/xbox360/call-of-duty-ghosts/team/Bestinthefnworld', 'Best in the FN World', 'Loss', "1-2", 'http://gamebattles.majorleaguegaming.com/xbox360/call-of-duty-ghosts/team/mlg-derangedinc/match?id=43202821');
+
+					game('4/17/2014', '9:30 PM CST', 'Gamebattles', 'http://gamebattles.majorleaguegaming.com/xbox360/call-of-duty-ghosts/team/swag-yolo-420', 'Swag yolo 420', 'Loss', "1-2", 'http://gamebattles.majorleaguegaming.com/xbox360/call-of-duty-ghosts/team/mlg-derangedinc/match?id=43182548');
+
+					game("4/17/2014", "8:45 PM CST", "Gamebattles", "http://gamebattles.majorleaguegaming.com/xbox360/call-of-duty-ghosts/team/is-winning-teaching", "Is Winning Teaching?", "Win", "2-0", "http://gamebattles.majorleaguegaming.com/xbox360/call-of-duty-ghosts/team/mlg-derangedinc/match?id=43181196");
+
+					game('4/17/2014', '8:00 PM CST', 'Gamebattles', 'http://gamebattles.majorleaguegaming.com/xbox360/call-of-duty-ghosts/team/get-blasted', 'Get Blasted', 'Win', "2-0", 'http://gamebattles.majorleaguegaming.com/xbox360/call-of-duty-ghosts/team/mlg-derangedinc/match?id=43180069');
+
+					game("4/17/2014", "7:15 PM CST", "Gamebattles", "http://gamebattles.majorleaguegaming.com/xbox360/call-of-duty-ghosts/team/me-lembra-um-turnon", "Me lembra um turnon", "Win", "2-1", "http://gamebattles.majorleaguegaming.com/xbox360/call-of-duty-ghosts/team/mlg-derangedinc/match?id=43178706");
+
+					game("4/16/2014", "9:00 PM CST", "Gamebattles", "http://gamebattles.majorleaguegaming.com/xbox360/call-of-duty-ghosts/team/topnotch-clan-TNC", "TopNotch Clan", "Win", "2-0", "http://gamebattles.majorleaguegaming.com/xbox360/call-of-duty-ghosts/team/mlg-derangedinc/match?id=43159362");
+
+					game("4/16/2014", "8:30 PM CST", "Gamebattles", "http://gamebattles.majorleaguegaming.com/xbox360/call-of-duty-ghosts/team/connor-sucks", "Connor Sucks", "Win", "2-0", "http://gamebattles.majorleaguegaming.com/xbox360/call-of-duty-ghosts/team/mlg-derangedinc/match?id=43158219");
+				</script>
+		</table>
+		<!-- End Table -->
+	
+	<!-- Footer -->
+		<div class="footer">
+			<span class="footer-copyright">Copyright &copy; DeRanged Gaming, all rights reserved.</span>			
+			<a href="http://twitter.com/DeRangedCOD" target="_blank"><img class="footericons" src="TwitterIcon.png" alt="Twitter Icon" width="40" height="40"></a>						
+			<a href="http://www.youtube.com/channel/UCTJ8DxXDFHle3zqEqZci2oQ/feed" target="_blank"><img class="footericons" src="YoutubeIcon.png" alt="Youtube Icon" width="40" height="40"></a>
+			<a class="contactus" href="contactus.php">Contact Us</a>
+		</div>
+	<!-- End Footer -->
+	</div>
+</body>
+</html>

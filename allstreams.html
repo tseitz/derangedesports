@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<link rel="stylesheet" type="text/css" href="stylesheet.css?version=1">
+	<link rel="icon" type="image/x-icon" href="favicon.ico">
+	<title>Livestreams | DeRanged eSports</title>
+</head>
+<body>
+	<div id="wrapper">
+	
+	<!-- Header -->
+		<nav class="headernav">		
+			<ul>
+				<li><a href="index.html">Home</a></li>
+				<li><a href="news.html">News</a></li>
+				<li><a href="allstreams.html" class="current">Streams</a></li>				
+				<li><a href="team.html" id="tab">Team</a></li>
+				<li><a href="results.html">Results</a></li>
+				<li><a href="videos.html">Videos</a></li>
+			</ul>
+			<img class="derangedlogo" src="DerangedLogo.png" alt="Deranged Logo" width="150" height="105">
+		</nav>
+	<!-- End Header -->
+	
+	<!-- Stream Drop-Down Menu -->
+		<div id="allstreamchoose">
+			<span>Choose a Stream:</span>
+			<select onchange="location = this.options[this.selectedIndex].value;">
+				<option value="furystream.html">Fury</option>
+				<option value="geekinstream.html">Geekin</option>
+				<option value="klipzstream.html">Klipz</option>
+				<option value="slimchancestream.html">SlimChance</option>
+				<option value="All" selected>All</option>
+			</select>
+		</div>
+	<!-- End Stream Drop-Down Menu -->
+	
+	<!-- Fury Livestream -->
+		<div>
+			<div id="allstreamheader">
+			<h2 id="nameheader">Fury DR</h2>
+			</div>
+			<div class="allstream">
+				<object type="application/x-shockwave-flash" height="450" width="670" id="fury_dr" data="http://www.twitch.tv/widgets/live_embed_player.swf?channel=fury_dr" bgcolor="#000000">
+					<param name="allowFullScreen" value="true" />
+					<param name="allowScriptAccess" value="always" />
+					<param name="allowNetworking" value="all" />
+					<param name="movie" value="http://www.twitch.tv/widgets/live_embed_player.swf" />
+					<param name="flashvars" value="hostname=www.twitch.tv&channel=fury_dr&auto_play=true&start_volume=25" />
+				</object>
+				<iframe frameborder="0" scrolling="no" id="chat_embed" src="http://twitch.tv/chat/embed?channel=fury_dr&amp;popout_chat=true" height="450" width="310"></iframe>
+			</div>
+		</div>
+	<!-- End Fury Livestream -->
+	
+	<!-- Geekin Livestream -->	
+		<div>
+			<div id="streamheader">
+			<h2 id="nameheader">Geekin</h2>
+			</div>
+			<div class="allstream">
+				<object type="application/x-shockwave-flash" height="450" width="670" id="geekin" data="http://www.twitch.tv/widgets/live_embed_player.swf?channel=geekins300" bgcolor="#000000">
+					<param name="allowFullScreen" value="true" />
+					<param name="allowScriptAccess" value="always" />
+					<param name="allowNetworking" value="all" />
+					<param name="movie" value="http://www.twitch.tv/widgets/live_embed_player.swf" />
+					<param name="flashvars" value="hostname=www.twitch.tv&channel=geekins300&auto_play=true&start_volume=25" />
+				</object>
+				<iframe frameborder="0" scrolling="no" id="chat_embed" src="http://twitch.tv/chat/embed?channel=geekins300&amp;popout_chat=true" height="450" width="310"></iframe>
+			</div>	
+		</div>
+	<!-- End Geekin Livestream -->
+
+	<!-- Klipz Livestream -->	
+		<div>
+			<div id="streamheader">
+			<h2 id="nameheader">Klipz</h2>
+			</div>
+			<div class="allstream">
+				<object type="application/x-shockwave-flash" height="450" width="670" id="klipz" data="http://www.twitch.tv/widgets/live_embed_player.swf?channel=klipz_dr" bgcolor="#000000">
+					<param name="allowFullScreen" value="true" />
+					<param name="allowScriptAccess" value="always" />
+					<param name="allowNetworking" value="all" />
+					<param name="movie" value="http://www.twitch.tv/widgets/live_embed_player.swf" />
+					<param name="flashvars" value="hostname=www.twitch.tv&channel=klipz_dr&auto_play=true&start_volume=25" />
+				</object>
+				<iframe frameborder="0" scrolling="no" id="chat_embed" src="http://twitch.tv/chat/embed?channel=klipz_dr&amp;popout_chat=true" height="450" width="310"></iframe>
+			</div>	
+		</div>
+	<!-- End Klipz Livestream -->
+
+	<!-- SlimChance Livestream -->	
+		<div>
+			<div id="streamheader">
+			<h2 id="nameheader">SlimChance</h2>
+			</div>
+			<div class="stream">
+				<object type="application/x-shockwave-flash" height="450" width="670" id="slimchance" data="http://www.twitch.tv/widgets/live_embed_player.swf?channel=slimchance" bgcolor="#000000">
+					<param name="allowFullScreen" value="true" />
+					<param name="allowScriptAccess" value="always" />
+					<param name="allowNetworking" value="all" />
+					<param name="movie" value="http://www.twitch.tv/widgets/live_embed_player.swf" />
+					<param name="flashvars" value="hostname=www.twitch.tv&channel=slimchance&auto_play=true&start_volume=25" />
+				</object>
+				<iframe frameborder="0" scrolling="no" id="chat_embed" src="http://twitch.tv/chat/embed?channel=slimchance&amp;popout_chat=true" height="450" width="310"></iframe>
+			</div>	
+		</div>
+	<!-- End SlimChance Livestream -->
+	
+	<!-- Footer -->	
+		<div class="footer">
+			<span class="footer-copyright">Copyright &copy; DeRanged Gaming, all rights reserved.</span>			
+			<a href="http://twitter.com/DeRangedCOD" target="_blank"><img class="footericons" src="TwitterIcon.png" alt="Twitter Icon" width="40" height="40"></a>						
+			<a href="http://www.youtube.com/channel/UCTJ8DxXDFHle3zqEqZci2oQ/feed" target="_blank"><img class="footericons" src="YoutubeIcon.png" alt="Youtube Icon" width="40" height="40"></a>
+			<a class="contactus" href="contactus.php">Contact Us</a>
+		</div>
+	<!-- End Footer -->
+	</div>
+</body>
+</html>
