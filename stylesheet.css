@@ -289,20 +289,36 @@
 			color: #f69600;
 		}
 
-		.record {
-			margin: 60px 0px 15px 0px;
+		.teampages {
+			margin-top: 60px;
 			background-color: #383838;
 			border-top: 2px solid #f69600;
-			border-bottom: 2px solid #f69600;}
+			border-bottom: 2px solid #f69600;
+			height: 200px;
+			width: 1000px;
+		}
 		
-		#gbrecord {
-			text-align: center;}
-			
-		#teampagelink {
-			text-align: center;}
-		
+		.gamebattles, .umg {
+			float: left;
+			display: inline;
+			text-align: center;
+			width: 499px;
+			margin: 15px 0px;
+		}
+
+		.gamebattles {
+			border-right: 2px solid #f69600;
+		}
+
 		#gbteamnote {
-			text-align: center;}
+			text-align: center;
+		}
+
+		#gfga {
+			font-family: Tahoma, Calibri, Verdana, Geneva, sans-serif;
+			line-height: 25px;
+			font-size: .95em;
+			color: #f69600;}
 			
 		.margin {
 			margin-top: 60px;}
