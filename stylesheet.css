@@ -350,9 +350,30 @@
 			font-size: 1em;
 			border-top: 1px solid #f69600;
 			border-bottom: 1px solid #f69600;}
+
+		.newsfeedarticle {
+			color: #ffffff;
+			padding: 10px;
+			font-size: 1em;
+			border-top: 1px solid #f69600;
+			border-bottom: 1px solid #f69600;
+		}
+
+		.newsfeedarticlechild {
+			color: #ffffff;
+			padding: 10px;
+			font-size: 1em;
+		}
+
+		.articlechild {
+			color: #ffffff;
+			padding: 10px;
+			font-size: 1em;
+			border-bottom: 1px solid #f69600;
+		}
 		
 		.articlelogo {
-			padding: 0px 10px 10px 0px;
+			padding: 10px 10px 10px 0px;
 			float: left;}
 			
 		.newstitle {
